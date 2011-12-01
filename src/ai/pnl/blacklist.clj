@@ -21,3 +21,9 @@
         (drop-while 
           (complement #(re-find (re-pattern-id id) %))
           content)))))
+
+
+(defn in-bl?
+  "True si la palabra esta en bl"
+  [word bl]
+  (some #{word} bl))
