@@ -1,7 +1,7 @@
 (ns ai.pnl.blacklist)
 
 
-(def *black-list* "black-list.txt")
+(def *black-list* (str (System/getProperty "user.home") "/black-list.txt"))
 
 
 (defn re-pattern-id 
