@@ -1,0 +1,27 @@
+#Para agregar una lista de black-list se pone primero el identidicador *****identificador***** y despues la lista
+*****ejemplo******
+perro
+gato
+vaca
+burro
+borrego
+becerro
+
+*****footprint*****
+[\d]+
+href
+width
+border
+cellspacing
+cellpadding
+html
+height
+index
+inicio
+style
+font-size
+text-align
+nbsp
+http
+vieys
+twitter_icons_256
